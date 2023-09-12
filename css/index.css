@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfi', sans-serif;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+body{
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-rosa-aquarela-molhado-respingo_70155-529.jpg);
+    height: 100%;
+}
+.container{
+    height: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(6, 3, 3);
+
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+header img{
+    max-width: 100px;
+    scroll-margin-bottom: 30px;
+    border-radius: 60px;
+    margin: 10px;
+   
+   
+}
+
+
+header h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color:#ce869e;
+    text-align: center;
+    text-shadow: 2px 1px 1px  black;
+}
+header p{
+   font-size:15px ;
+   color:#6b0c2c;
+   text-align: center;
+  
+   
+
+}
+
+section.botoes-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+}
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+    cursor:pointer;
+    color:whitesmoke;
+    transition: .2s;
+   
+}
+
+a.link i{
+    font-size: 1.5em;
+
+}
+a.link button:hover, footer a.btn-footer{
+    transform:scale(1.05)
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+   
+  
+}
+.botao{
+   background: #ce869e;
+    box-shadow: 2px 2px 2px #870e36;
+}
+footer{
+    text-align: center;
+    margin: 15px;
+}
+footer a.btn-footer{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 43px;
+    border-radius: 60%;
+    margin: 0 10px;
+    transition: .2s;
+    background: #ce869e;
+
+    
+
+}
