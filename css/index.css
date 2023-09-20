@@ -29,10 +29,10 @@ header {
     margin-bottom: 30px;
 }
 header img{
-    max-width: 100px;
+    max-width: 90px;
     scroll-margin-bottom: 30px;
     border-radius: 60px;
-    margin: 10px;
+    margin: 5px;
    
    
 }
@@ -41,13 +41,13 @@ header img{
 header h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 23px;
     color:#ce869e;
     text-align: center;
     text-shadow: 2px 1px 1px  black;
 }
 header p{
-   font-size:15px ;
+   font-size:13px ;
    color:#6b0c2c;
    text-align: center;
   
