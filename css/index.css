@@ -10,7 +10,7 @@ html{
     font-size: 14px;
 }
 body{
-    background-image: url(https://img.freepik.com/vetores-premium/fundo-rosa-aquarela-molhado-respingo_70155-529.jpg);
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-rosa-aquarela-molhado-respingo_70155-529.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697932800&semt=ais);
     height: 100%;
 }
 .container{
@@ -59,18 +59,18 @@ section.botoes-links{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap:9px;
    
 }
 a.link button{
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: none;
-    border-radius: 15px;
-    font-size: 1.2em;
+   border-radius: 15px 15px;
+    font-size: 1.01em;
     cursor:pointer;
     color:whitesmoke;
     transition: .2s;
